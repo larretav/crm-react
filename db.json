@@ -1,0 +1,103 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "telefono": "102013313",
+      "email": "juan@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 2,
+      "nombre": "Karen",
+      "telefono": "138198313",
+      "email": "karen@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 3,
+      "nombre": "Josue",
+      "telefono": "31983913",
+      "email": "josue@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 4,
+      "nombre": "Miguel",
+      "telefono": "319381983",
+      "email": "miguel@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 5,
+      "nombre": "Pedro",
+      "telefono": "1398198938",
+      "email": "pedro@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "nombre": "cxczxczxc",
+      "empresa": "zxczxc",
+      "email": "s@d.com",
+      "telefono": "12312",
+      "notas": "cxcxc ",
+      "id": 6
+    },
+    {
+      "nombre": "dsadasd",
+      "empresa": "dasda",
+      "email": "asda@gmail.com",
+      "telefono": "vc",
+      "notas": "scsc",
+      "id": 7
+    },
+    {
+      "nombre": "xccx",
+      "empresa": "cx xc ",
+      "email": "larre111095@gmail.com",
+      "telefono": "dcsc",
+      "notas": "dcsd",
+      "id": 8
+    },
+    {
+      "nombre": "Comida",
+      "empresa": "pkt1",
+      "email": "larre111095@gmail.com",
+      "telefono": "6681485219",
+      "notas": "xczxczx",
+      "id": 9
+    },
+    {
+      "nombre": "Comida",
+      "empresa": "pkt1",
+      "email": "larre111095@gmail.com",
+      "telefono": "6681485219",
+      "notas": "xczxczx",
+      "id": 10
+    },
+    {
+      "nombre": "Comida",
+      "empresa": "pkt1",
+      "email": "larre111095@gmail.com",
+      "telefono": "6681485219",
+      "notas": "xczxczx",
+      "id": 11
+    },
+    {
+      "nombre": "Comida",
+      "empresa": "pkt1",
+      "email": "larre111095@gmail.com",
+      "telefono": "6681485219",
+      "notas": "xczxczx",
+      "id": 12
+    },
+    {
+      "nombre": "Alejandro",
+      "empresa": "Pkt1",
+      "email": "larreta_vzla@hotmail.com",
+      "telefono": "665845215",
+      "notas": "No se que se anota aquí",
+      "id": 13
+    }
+  ]
+}
