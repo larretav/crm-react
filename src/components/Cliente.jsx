@@ -1,10 +1,23 @@
-import { useNavigate } from "react-router-dom";
+import { Form, redirect, useNavigate } from "react-router-dom";
+import { deleteCliente } from "../api/clientes";
+
+export const action = async ({params}) => {
+  await deleteCliente(params.clienteId)
+  return redirect('/')
+};
+
 
 
 const Cliente = ({cliente}) => {
 
   const navigate = useNavigate();
   const {nombre, empresa, email, telefono, id} = cliente;
+
+  const handleSubmit = (e) => { 
+    if( !confirm('¿Deseas eliminar este cliente?') ){
+      e.preventDefault()
+    }
+  }
 
   return (
     <tr className="border-b last:border-0">
@@ -25,7 +38,14 @@ const Cliente = ({cliente}) => {
           onClick={() => navigate(`clientes/${id}/editar`) }
         >
           Editar</button>
-        <button type="button" className="px-3 py-1 text-red-500 font-semibold rounded-md hover:bg-red-500 hover:text-white transition-all duration-200 ease-in-out">Eliminar</button>
+        
+        <Form 
+          method="POST"
+          action={`/clientes/${id}/eliminar`}
+          onSubmit={handleSubmit}
+        >
+          <button type="submit" className="px-3 py-1 text-red-500 font-semibold rounded-md hover:bg-red-500 hover:text-white transition-all duration-200 ease-in-out">Eliminar</button>
+        </Form>
       </td>
     </tr>
   )

@@ -32,10 +32,6 @@ const NuevoCliente = () => {
   const navigate = useNavigate();
   const errores = useActionData();
 
-  const handleClick = (e) => { 
-    navigate('/');
-  }
-
   return (
     <>
       <h1 className="font-black text-4xl text-blue-900">Nuevo cliente</h1>
@@ -44,7 +40,7 @@ const NuevoCliente = () => {
       <div className="flex justify-end">
         <button 
           className="px-4 py-2 bg-blue-500 rounded-md text-white hover:bg-transparent hover:text-blue-500 hover:outline-2 hover:outline hover:outline-blue-500 transition-all duration-200"
-          onClick={ handleClick }
+          onClick={ () => navigate(-1) }
         >
           Volver
         </button>
@@ -61,7 +57,7 @@ const NuevoCliente = () => {
 
           <input 
             type="submit"
-            className="mt-5 w-full bg-blue-800 p-3 uppercase font-bold text-white text-lg"
+            className="mt-5 p-3 w-full rounded-lg bg-blue-800 uppercase font-bold text-white text-lg hover:bg-blue-700 cursor-pointer transition-all ease duration-150"
             value="Registrar"
           />
         </Form> 
