@@ -32,7 +32,7 @@ export const addCliente = async (cliente) => {
   }
 }
 
-export const updateCliente = async (id) => {
+export const updateCliente = async (id, cliente) => {
 
   try {
     const resp = await fetch(`${import.meta.env.VITE_API_URL}/${id}`, {
