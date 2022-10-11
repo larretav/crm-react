@@ -1,5 +1,5 @@
 {
-  "Clientes": [
+  "Clientes": {
     {
       "nombre":{ "string": ["Pito Perez"]},
       "empresa": { "string": ["Codigo Con Juan"]},
@@ -40,5 +40,5 @@
       "notas": { "string": ["Miente"]},
       "id": { "int": [10]}
     }
-  ]
+  }
 }
