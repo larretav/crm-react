@@ -1,10 +1,44 @@
 {
-  "Clientes": {
-    "nombre": "string",
-    "empresa": "string",
-    "email": "string",
-    "telefono": "string",
-    "notas": "string",
-    "id": "int"
-  }
+  "Clientes": [
+    {
+      "nombre": "Pito Perez",
+      "empresa": "Codigo Con Juan",
+      "email": "juan@juan.com",
+      "telefono": "102013313",
+      "notas": "Notitas",
+      "id": 1
+    },
+    {
+      "nombre": "Rosa Rosas",
+      "empresa": "Codigo Con Juan",
+      "email": "karen@juan.com",
+      "telefono": "138198313",
+      "notas": "dssd",
+      "id": 2
+    },
+    {
+      "nombre": "Josue",
+      "empresa": "Codigo Con Juan",
+      "email": "josue@juan.com",
+      "telefono": "31983913",
+      "notas": "cvv",
+      "id": 3
+    },
+    {
+      "nombre": "Comida",
+      "empresa": "pkt1",
+      "email": "larre111095@gmail.com",
+      "telefono": "6681485219",
+      "notas": "xczxczx",
+      "id": 9
+    },
+    {
+      "nombre": "Peñamiento",
+      "empresa": "UAS",
+      "email": "penia@gmail",
+      "telefono": "8764654",
+      "notas": "Miente",
+      "id": 10
+    }
+  ]
 }
